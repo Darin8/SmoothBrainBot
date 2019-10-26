@@ -1,0 +1,22 @@
+{
+  "name": "smoothbrainbot",
+  "version": "1.0.0",
+  "description": "The Ultimate Discord Bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darin8/SmoothBrainBot.git"
+  },
+  "author": "UCSDI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darin8/SmoothBrainBot/issues"
+  },
+  "homepage": "https://github.com/Darin8/SmoothBrainBot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
