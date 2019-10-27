@@ -20,9 +20,9 @@ bot.on("message", async message => {
         return; //Optionally handle direct messages
     }
     */
-    console.log(message.content); // Log chat to console
 
     if (message.content.indexOf(config.prefix) === 0) {
+        console.log(message.author.username,': ',message.content);
 
         let msg = message.content.slice(config.prefix.length); // slice of the prefix on the message
 
