@@ -1,6 +1,7 @@
 const config = require('./config.json');
 const Discord = require('discord.js');
 const util = require('util');
+const irc_client = require('./irc.js');
 const bot = new Discord.Client({
     disableEveryone: true,
     disabledEvents: ['TYPING_START']
@@ -8,6 +9,7 @@ const bot = new Discord.Client({
 
 bot.on("ready", () => {
     console.log(`Bot is online!\n${bot.users.size} users, in ${bot.guilds.size} servers connected.`);
+    //irc_client.test();
 });
 
 bot.on("message", async message => {
