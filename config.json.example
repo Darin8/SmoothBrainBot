@@ -1,0 +1,10 @@
+{
+    "token":"your discord bot token",
+    "prefix": "prefix for bot commands",
+    "irc": {
+        "user": "osu username",
+        "password": "irc password (different from osu pass)",
+        "apiKey": "osu api key",
+        "lobby_password": "maxisagod"
+    }
+}
