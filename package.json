@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Darin8/SmoothBrainBot#readme",
   "dependencies": {
     "bancho.js": "^0.9.5",
+    "danbooru": "^3.1.0",
     "discord.js": "^11.5.1"
   }
 }
